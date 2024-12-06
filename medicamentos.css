@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+.header-left {
+    all: unset; 
+    cursor: pointer; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    all: unset; 
+    cursor: pointer; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.download-button {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9f8fc4;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #8e7bb2;
+}
+
+.patient-details {
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.patient-details span {
+    color: #333;
+    font-weight: normal;
+}
+
+.medications-section {
+    padding: 15px 20px;
+}
+
+.medication-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.medication-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.medication-card span {
+    color: #333;
+}
+
+.action-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #9f8fc4;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #8e7bb2;
+}
